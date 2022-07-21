@@ -4,7 +4,7 @@ import ReactTyped from 'react-typed';
 
 const Hero = () => {
   return (
-    <div className="relative w-full" id="servicios">
+    <div className="relative w-full" id="nosotros">
       {/*   <header>
         <nav className="fixed z-10 w-full border-b bg-white md:absolute md:bg-transparent">
           <div className="container m-auto px-2 md:px-12 lg:px-7">
