@@ -2,7 +2,6 @@ import Layout from '../components/Layout/Layout';
 import Head from 'next/head';
 import Carousel from '../components/Carousel';
 import Servicios from '../components/Servicios';
-import Nosotros from '../components/Nosotros';
 import Proyectos from '../components/Proyectos';
 import Hero from '../components/Hero';
 

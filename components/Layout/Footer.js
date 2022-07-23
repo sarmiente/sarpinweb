@@ -51,16 +51,13 @@ const Footer = () => {
                 <h6 className="text-lg font-medium text-black-600">Menu</h6>
                 <ul className="list-inside mt-4 space-y-3">
                   <li>
-                    <a
-                      href="#inicio"
-                      className="hover:text-blue-100 transition"
-                    >
+                    <a href="/" className="hover:text-blue-100 transition">
                       Inicio
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#nosotros"
+                      href="/#nosotros"
                       className="hover:text-blue-100 transition"
                     >
                       Nosotros
@@ -68,7 +65,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#servicios"
+                      href="/#servicios"
                       className="hover:text-blue-100 transition"
                     >
                       Servicios
@@ -76,7 +73,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#proyectos"
+                      href="/#proyectos"
                       className="hover:text-blue-100 transition"
                     >
                       Proyectos
@@ -97,12 +94,18 @@ const Footer = () => {
                 <h6 className="text-lg font-medium text-black-600">Links</h6>
                 <ul className="list-inside mt-4 space-y-4">
                   <li>
-                    <a href="#" className="hover:text-blue-100 transition">
+                    <a
+                      href="/politica-de-privacidad"
+                      className="hover:text-blue-100 transition"
+                    >
                       Politica de privacidad
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:text-blue-100 transition">
+                    <a
+                      href="/terminos-y-condiciones"
+                      className="hover:text-blue-100 transition"
+                    >
                       Terminos y condiciones
                     </a>
                   </li>
