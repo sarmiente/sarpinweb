@@ -87,7 +87,7 @@ const Header = () => {
             >
               Servicios
             </LinkScroll>
-            <LinkScroll
+            {/* <LinkScroll
               href="true"
               to="proyectos"
               activeClass="active"
@@ -102,7 +102,7 @@ const Header = () => {
               }
             >
               Proyectos
-            </LinkScroll>
+            </LinkScroll> */}
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <ButtonWP className="inline">
@@ -216,7 +216,7 @@ const Header = () => {
               </svg>
               Servicios
             </LinkScroll>
-            <LinkScroll
+            {/*    <LinkScroll
               activeClass="active"
               to="proyectos"
               spy={true}
@@ -247,7 +247,7 @@ const Header = () => {
                 />
               </svg>
               Proyectos
-            </LinkScroll>
+            </LinkScroll> */}
           </ul>
         </div>
       </nav>
