@@ -40,6 +40,14 @@ const Servicios = () => {
                   Diseño, instalación y mantenimientos preventivos y correctivos
                   en equipos de sistemas de CCTV.
                 </p>
+                <br />
+                <a
+                  href="https://wa.me/573053255769"
+                  target="_blank"
+                  className=""
+                >
+                  Saber más
+                </a>
               </div>
               {/* <Image
                 src={Facebook}
@@ -70,6 +78,10 @@ const Servicios = () => {
                   Monitorea ingresos y salidas de personal, detecta y controla
                   actividades delictivas dentro y/o fuera de tu espacio.
                 </p>
+                <br />
+                <a href="https://wa.me/573053255769" target="_blank">
+                  Saber más
+                </a>
               </div>
             </div>
           </div>
@@ -94,6 +106,10 @@ const Servicios = () => {
                   para evacuar los espacios afectados en el menor tiempo
                   posible.
                 </p>
+                <br />
+                <a href="https://wa.me/573053255769" target="_blank">
+                  Saber más
+                </a>
               </div>
               {/* Imagen */}
             </div>
@@ -118,6 +134,10 @@ const Servicios = () => {
                   Personalizamos tu sitio web de acuerdo a tus necesidades,
                   atrae mas clientes con una pagina moderna y atractiva.
                 </p>
+                <br />
+                <a href="https://wa.me/573053255769" target="_blank">
+                  Saber más
+                </a>
               </div>
               {/* Imagen */}
             </div>

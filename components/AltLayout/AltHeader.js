@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
-import { Link as LinkScroll } from 'react-scroll';
-import Link from 'next/link';
+
 import LogoHeader from '../../public/assets/framefrontlogo.svg';
 import ButtonWP from '../misc/ButtonWP';
 import LogoWP from '../../public/assets/icon_whatsapp.svg';
@@ -85,7 +84,7 @@ const AltHeader = () => {
             >
               Servicios
             </a>
-            <a
+            {/*  <a
               href="/#proyectos"
               to="proyectos"
               activeClass="active"
@@ -100,7 +99,7 @@ const AltHeader = () => {
               }
             >
               Proyectos
-            </a>
+            </a> */}
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <ButtonWP className="inline">
@@ -217,7 +216,7 @@ const AltHeader = () => {
               </svg>
               Servicios
             </a>
-            <a
+            {/*  <a
               href="/#proyectos"
               activeClass="active"
               to="proyectos"
@@ -249,7 +248,7 @@ const AltHeader = () => {
                 />
               </svg>
               Proyectos
-            </a>
+            </a> */}
           </ul>
         </div>
       </nav>
