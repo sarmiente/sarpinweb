@@ -16,7 +16,9 @@ const Footer = () => {
               Somos un grupo de jovenes Ingenieros comprometidos con la
               seguridad tecnologica de los hogares y las empresas colombianas.
             </p>
-            <p className="pb-4">Cartagena - Barranquilla</p>
+            <p className="pb-4">Cartagena - Barranquilla - Soledad</p>
+
+            <p className="pb-4">+57 305 325 5769</p>
             <div className="flex gap-4 w-full mt-2">
               <div>
                 <a
@@ -26,14 +28,14 @@ const Footer = () => {
                   <Image src={Facebook} />
                 </a>
               </div>
-              <div>
+              {/*   <div>
                 <a
                   href=""
                   className="bg-white-500 rounded-full flex p-2 shadow-lg"
                 >
                   <Image src={Twitter} />
                 </a>
-              </div>
+              </div> */}
               <div>
                 <a
                   href=""
@@ -71,14 +73,14 @@ const Footer = () => {
                       Servicios
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="/#proyectos"
                       className="hover:text-blue-100 transition"
                     >
                       Proyectos
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="https://wa.me/573053255769"

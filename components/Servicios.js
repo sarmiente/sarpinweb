@@ -32,8 +32,8 @@ const Servicios = () => {
               >
                 <span className="font-bold text-white-300">1</span>
               </div>
-              <div className="space-y-4">
-                <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white-500">
+              <div className="space-y-4 group-hover:text-white-500">
+                <h4 className="text-2xl text-gray-800 font-medium transition ">
                   Mantenimiento e Instalacion de CCTV
                 </h4>
                 <p className="text-gray-600 group-hover:text-white-500">
@@ -44,7 +44,7 @@ const Servicios = () => {
                 <a
                   href="https://wa.me/573053255769"
                   target="_blank"
-                  className=""
+                  className="group-hover:text-white-500"
                 >
                   Saber más
                 </a>
@@ -79,7 +79,11 @@ const Servicios = () => {
                   actividades delictivas dentro y/o fuera de tu espacio.
                 </p>
                 <br />
-                <a href="https://wa.me/573053255769" target="_blank">
+                <a
+                  className="group-hover:text-white-500"
+                  href="https://wa.me/573053255769"
+                  target="_blank"
+                >
                   Saber más
                 </a>
               </div>
@@ -102,12 +106,15 @@ const Servicios = () => {
                   Sistema de Deteccion de Incendios
                 </h4>
                 <p className="text-gray-600 group-hover:text-white-500">
-                  Detecte a tiempo la presencia de fuego y emita las alarmas
-                  para evacuar los espacios afectados en el menor tiempo
-                  posible.
+                  Detecte a tiempo la presencia de fuego y emita alarmas para
+                  evacuar espacios afectados en el menor tiempo posible.
                 </p>
                 <br />
-                <a href="https://wa.me/573053255769" target="_blank">
+                <a
+                  className="group-hover:text-white-500"
+                  href="https://wa.me/573053255769"
+                  target="_blank"
+                >
                   Saber más
                 </a>
               </div>
@@ -135,7 +142,11 @@ const Servicios = () => {
                   atrae mas clientes con una pagina moderna y atractiva.
                 </p>
                 <br />
-                <a href="https://wa.me/573053255769" target="_blank">
+                <a
+                  className="group-hover:text-white-500"
+                  href="https://wa.me/573053255769"
+                  target="_blank"
+                >
                   Saber más
                 </a>
               </div>
