@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import LogoHeader from '../../public/assets/framefrontlogo.svg';
+import LogoHeader from '../../public/assets/newfrontlogo.svg';
 import Facebook from '../../public/assets/Icon/facebook.svg';
-import Twitter from '../../public/assets/Icon/twitter.svg';
+import LogoWP from '../../public/assets/icon_whatsapp.svg';
 import Instagram from '../../public/assets/Icon/instagram.svg';
 
 const Footer = () => {
@@ -18,7 +18,11 @@ const Footer = () => {
             </p>
             <p className="pb-4">Cartagena - Barranquilla - Soledad</p>
 
-            <p className="pb-4">+57 305 325 5769</p>
+            <div className="flex">
+              <Image src={LogoWP} alt="Logo whatsapp" width={30} />
+
+              <p className="pt-3"> +57 305 325 5769</p>
+            </div>
             <div className="flex gap-4 w-full mt-2">
               <div>
                 <a

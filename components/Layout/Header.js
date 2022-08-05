@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { Link as LinkScroll } from 'react-scroll';
-import LogoHeader from '../../public/assets/framefrontlogo.svg';
+import LogoHeader from '../../public/assets/newfrontlogo.svg';
 import ButtonWP from '../misc/ButtonWP';
 import LogoWP from '../../public/assets/icon_whatsapp.svg';
 
