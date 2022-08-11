@@ -42,7 +42,8 @@ const Footer = () => {
               </div> */}
               <div>
                 <a
-                  href=""
+                  href="https://www.instagram.com/sarpin.co/"
+                  target="__blank"
                   className="bg-white-500 rounded-full flex p-2 shadow-lg"
                 >
                   <Image src={Instagram} />

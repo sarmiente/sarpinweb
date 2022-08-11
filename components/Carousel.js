@@ -6,20 +6,19 @@ import ButtonOutline from './misc/ButtonOutline';
 const Carousel = ({
   carouselContent = [
     {
-      title: 'Super Promocion: Llevate el Kit Hikvision Hilook',
-      excerpt: 'DVR 1080 de 4 canales + 4 Cámaras 1080p + Disco Duro 500GB',
-      image: '/assets/kit_hikvision.svg',
+      title: 'Super descuento: Cámara tipo Bala  Hilook - 1080p',
+      excerpt: '',
+      image: '/assets/balapost.svg',
     },
     {
       title: 'Mega Kit CCTV: Marca Dahua Technology',
-      excerpt:
-        'Lleva 4 Cámaras De Seguridad 1080p + DVR 8 canales + Disco Duro 1TB',
-      image: '/assets/kit_dahua.svg',
+      excerpt: 'DVR 1080 de 4 canales + 4 Cámaras 1080p + Disco Duro 500GB',
+      image: '/assets/DVR-104G-F1.svg',
     },
     {
       title: 'Control de Acceso',
       excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      image: '/assets/kit_hikvision.svg',
+      image: '/assets/domopost.svg',
     },
   ],
 }) => {
