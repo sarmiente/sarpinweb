@@ -8,11 +8,11 @@ const Carousel = ({
     {
       title: 'Super descuento: Cámara tipo Bala  Hilook - 1080p',
       excerpt: '',
-      image: '/assets/balapost.svg',
+      image: '/assets/THC-B120-PS.svg',
     },
     {
-      title: 'Mega Kit CCTV: Marca Dahua Technology',
-      excerpt: 'DVR 1080 de 4 canales + 4 Cámaras 1080p + Disco Duro 500GB',
+      title: 'DVR HiLook : Full HD ',
+      excerpt: '1080p de 4 canales + Mouse',
       image: '/assets/DVR-104G-F1.svg',
     },
     {
