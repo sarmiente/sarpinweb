@@ -49,8 +49,7 @@ const Nosotros = ({
           </p>
           <p className="my-2 text-white-300 sm:text-2xl text-sm ">
             Nos dedicamos a la venta, instalacion y mantenimiento de sistemas
-            cerrados de television, sistemas de automatizacion y domotica para
-            negocios y hogares colombianos.
+            cerrados de television.
           </p>
           <h4 className="sm:text-3xl text-2xl my-2 text-white-500">
             Ventajas de trabajar con nosotros

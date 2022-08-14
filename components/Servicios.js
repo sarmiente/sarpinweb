@@ -138,8 +138,9 @@ const Servicios = () => {
                   Diseño & Desarrollo de Páginas Web
                 </h4>
                 <p className="text-gray-600 group-hover:text-white-500">
-                  Personalizamos tu sitio web de acuerdo a tus necesidades,
-                  atrae mas clientes con una pagina moderna y atractiva.
+                  Creamos tu sitio web de acuerdo a tus necesidades, atrae mas
+                  clientes con una pagina moderna y atractiva, esta es tu carta
+                  de presentacion.
                 </p>
                 <br />
                 <a
