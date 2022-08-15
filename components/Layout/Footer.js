@@ -16,7 +16,7 @@ const Footer = () => {
               Somos un grupo de jovenes Ingenieros comprometidos con la
               seguridad tecnologica de los hogares y las empresas colombianas.
             </p>
-            <p className="pb-4">Cartagena - Barranquilla - Soledad</p>
+            <p className="pb-4">Barranquilla - Cartagena</p>
 
             <div className="flex">
               <Image src={LogoWP} alt="Logo whatsapp" width={30} />

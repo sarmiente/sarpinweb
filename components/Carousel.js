@@ -6,19 +6,19 @@ import ButtonOutline from './misc/ButtonOutline';
 const Carousel = ({
   carouselContent = [
     {
-      title: 'Super descuento: Cámara tipo Bala  Hilook - 1080p',
-      excerpt: '',
+      title: 'Cámara Tipo Bala HiLook 1080P Full HD',
+      excerpt: 'Referencia: THC-B120-PS',
       image: '/assets/THC-B120-PS.svg',
     },
     {
-      title: 'DVR HiLook : Full HD ',
-      excerpt: '1080p de 4 canales + Mouse',
+      title: 'DVR HiLook : Full HD 1080p 4 y 8 Canales',
+      excerpt: 'Referencia: DVR-108G-F1',
       image: '/assets/DVR-104G-F1.svg',
     },
     {
-      title: 'Control de Acceso',
-      excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      image: '/assets/domopost.svg',
+      title: 'Cámara Tipo Domo HiLook 1080P Full HD',
+      excerpt: 'Referencia: THC-T120-P',
+      image: '/assets/THC-T120.svg',
     },
   ],
 }) => {
@@ -56,7 +56,7 @@ const Carousel = ({
                 <ButtonOutline>
                   {' '}
                   <a href="https://wa.me/573053255769" target="_blank">
-                    Saber más
+                    Cotizar
                   </a>
                 </ButtonOutline>
               </div>
