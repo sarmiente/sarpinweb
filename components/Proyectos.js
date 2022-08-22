@@ -5,7 +5,7 @@ const Proyectos = ({
   heroContent = [
     {
       image: '/assets/Icon/checklist.svg',
-      excerpt: 'Lorem',
+      excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       name: 'START UP - LANDING PAGE',
       occupation: '$550.000',
     },
@@ -13,25 +13,23 @@ const Proyectos = ({
       image: '/assets/Icon/checklist.svg',
       excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       name: 'PLUS - CORPORATIVA',
-      occupation: 'Engineer',
+      occupation: '$950.000',
     },
     {
       image: '/assets/Icon/checklist.svg',
       excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       name: 'PRO - eCOMMERCE',
-      occupation: 'Ingeniero Civil',
+      occupation: '$1.350.000',
     },
   ],
 }) => {
   const settings = {
     dots: true,
     autoplay: true,
-    speed: 1000,
+    speed: 3000,
     customPaging: function (i) {
       return (
-        <a href="">
-          <span className="mx-2 rounded-l-full rounded-r-full h-2 w-2 block cursor-pointer transition-all"></span>
-        </a>
+        <span className="mx-2 rounded-l-full rounded-r-full h-2 w-2 block cursor-pointer transition-all"></span>
       );
     },
     dotsClass: 'slick-dots block w-max mx-auto',
