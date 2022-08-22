@@ -87,7 +87,7 @@ const Header = () => {
             >
               Servicios
             </LinkScroll>
-            {/* <LinkScroll
+            <LinkScroll
               href="true"
               to="proyectos"
               activeClass="active"
@@ -101,8 +101,8 @@ const Header = () => {
                   : 'text-black-500 hover:text-blue-100')
               }
             >
-              Proyectos
-            </LinkScroll> */}
+              Planes
+            </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <ButtonWP className="inline">
