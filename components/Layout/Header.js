@@ -90,6 +90,9 @@ const Header = () => {
             <LinkScroll
               href="true"
               to="proyectos"
+              spy={true}
+              smooth={true}
+              duration={1000}
               activeClass="active"
               onSetActive={() => {
                 setActiveLink('proyectos');
