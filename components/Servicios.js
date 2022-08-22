@@ -34,7 +34,7 @@ const Servicios = () => {
               </div>
               <div className="space-y-4 group-hover:text-white-500">
                 <h4 className="text-2xl text-gray-800 font-medium transition ">
-                  Mantenimiento e Instalacion de CCTV
+                  Mantenimiento e Instalación de CCTV
                 </h4>
                 <p className="text-gray-600 group-hover:text-white-500">
                   Diseño, instalación y mantenimientos preventivos y correctivos
@@ -72,7 +72,7 @@ const Servicios = () => {
               </div>
               <div className="space-y-4">
                 <h4 className="text-2xl text-black-600 font-medium transition group-hover:text-white-500">
-                  Control de Acceso y Alarmas de Intrusion
+                  Control de Acceso y Alarmas de Intrusión
                 </h4>
                 <p className="text-gray-600 group-hover:text-white-500">
                   Monitorea ingresos y salidas de personal, detecta y controla
@@ -103,7 +103,7 @@ const Servicios = () => {
               </div>
               <div className="space-y-4">
                 <h4 className="text-2xl text-gray-800 font-medium transition group-hover:text-white-500">
-                  Sistema de Deteccion de Incendios
+                  Sistema de Detección de Incendios
                 </h4>
                 <p className="text-gray-600 group-hover:text-white-500">
                   Detecte a tiempo la presencia de fuego y emita alarmas para

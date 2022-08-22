@@ -16,6 +16,7 @@ const Footer = () => {
               Somos un grupo de jovenes Ingenieros comprometidos con la
               seguridad tecnologica de los hogares y las empresas colombianas.
             </p>
+
             <p className="pb-4">Barranquilla - Cartagena</p>
 
             <div className="flex">
@@ -32,14 +33,7 @@ const Footer = () => {
                   <Image src={Facebook} />
                 </a>
               </div>
-              {/*   <div>
-                <a
-                  href=""
-                  className="bg-white-500 rounded-full flex p-2 shadow-lg"
-                >
-                  <Image src={Twitter} />
-                </a>
-              </div> */}
+
               <div>
                 <a
                   href="https://www.instagram.com/sarpin.co/"

@@ -34,13 +34,13 @@ const Hero = () => {
               </span>
             </h1>
             <div className="mt-8 text-black-600 text-2xl">
-              En Sarpin, ofrecemos soluciones integrales en tecnologia para la
+              En Sarpin, ofrecemos soluciones integrales en tecnología para la
               seguridad y la web.
             </div>
             <p className="mt-8 text-black-600 text-2xl">
-              Nos dedicamos a la comercialización, instalacion y mantenimiento
-              de sistemas cerrados de television (CCTV), sistemas de
-              automatizacion y domotica para negocios y hogares colombianos.
+              Nos dedicamos a la comercialización, instalación y mantenimiento
+              de sistemas cerrados de televisión (CCTV), sistemas de
+              automatización y domótica para negocios y hogares colombianos.
             </p>
             <p className="mt-8 text-black-600 text-2xl">
               Siempre buscamos trabajar de la manera mas efectiva para exceder
