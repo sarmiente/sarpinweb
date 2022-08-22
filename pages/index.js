@@ -5,22 +5,25 @@ import Servicios from '../components/Servicios';
 /* import Proyectos from '../components/Proyectos'; */
 import Hero from '../components/Hero';
 import Proyectos from '../components/Proyectos';
+import { Html } from 'next/document';
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>
-          Sarpin - Soluciones Integrales en Sistemas de Seguridad & Desarrollo
-          Web
-        </title>
-        <meta charset="utf-8" />
-        <meta
-          name="description"
-          content="Ofrecemos soluciones integrales en tecnología de sistemas de seguridad y desarrollo web. Barranquilla, Colombia."
-        />
-        <meta name="robots" content="noindex, nofollow" />
-      </Head>
+    <Html lang="es">
+      <main>
+        <Head>
+          <title>
+            Sarpin - Soluciones Integrales en Sistemas de Seguridad & Desarrollo
+            Web
+          </title>
+          <meta
+            name="description"
+            content="Ofrecemos soluciones integrales en tecnología de sistemas de seguridad y desarrollo web. Barranquilla, Colombia."
+          />
+          <meta name="robots" content="noindex, nofollow" />
+        </Head>
+      </main>
       <Layout>
         <Carousel />
         <Hero />
@@ -28,6 +31,7 @@ export default function Home() {
         <Servicios />
         <Proyectos />
       </Layout>
+      </Html>
     </>
   );
 }
