@@ -27,7 +27,8 @@ const Footer = () => {
             <div className="flex gap-4 w-full mt-2">
               <div>
                 <a
-                  href=""
+                  href="https://www.facebook.com/Sarpin.co"
+                  target="__blank"
                   className="bg-white-500 rounded-full flex p-2 shadow-lg"
                 >
                   <Image src={Facebook} />
